@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection</title>
+    <script>
+        window.onload = function(){    
+            if (window.sessionStorage.length > 2){
+                var res = document.getElementById('form1')
+                for (var i = 0; i < sessionStorage.length; i++){
+                    var key = sessionStorage.key(i)
+                    var content = sessionStorage.getItem(key)
+                    if (key in res.elements){
+                        res.elements[key].value = content
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1> Fraud Detection System </h1>
+    <p><a href="/model">This is the model</a></p>
+    <h4><i>Pleaes fill out the forms as much as you can. For any items that not sure, leave as default.</i></h4>
+
+
+    <form id="form1" name="form1" method="POST" action="/">
+        
+        <label>Age</label>
+        <input id="Age" type="number" name="age_of_driver" value=35>
+
+        <label>Gender</label>
+        <select id="Gender" type="number select" name="gender">
+            <option selected value=1>Male</option>
+            <option value=0>Female</option>
+            <option value=2>Other</option>
+        </select>
+
+        <label>Martial Status</label>
+        <select type="number select" name="marital_status">
+            <option value=1>Married</option>
+            <option selected value=0>Not Married</option>
+        </select>
+
+        <label>Safety Rating</label>
+        <input type="number" name="safty_rating" value=80>
+        <br>
+        <br>
+
+        <label>Annual Income ($)</label>
+        <input type="number" name="annual_income" value=50000>
+
+        <label>Education</label>
+        <select type="number select" name="high_education_ind" value=1>
+            <option value=1>College or Above</option>
+            <option value=0>No College Degree</option>
+        </select>
+
+        <label>Recent Address Change</label>
+        <select type="number select"  name="address_change_ind" value=0>
+            <option value=0>No</option>
+            <option value=1>Yes</option>
+        </select>
+
+        <label>Living Status</label>
+        <select type="number select" name="living_status" value=0>
+            <option value=0>Rent</option>
+            <option value=1>Own</option>
+        </select>
+        <br><br>
+
+        <label>Accident Site</label>
+        <select type="number select" name="accident_site" value=1>
+            <option value=1>Local</option>
+            <option value=2>Highway</option>
+            <option value=3>Parking Lot</option>
+        </select>
+
+        <label>Number of Past Claims</label>
+        <input type="number" name="past_num_of_claims" value=0>
+
+
+        <label>Witness</label>
+        <select type="number select"  name="witness_present_ind" value=1>
+            <option value=1>Yes</option>
+            <option value=0>No</option>
+        </select>
+        <br><br>
+
+        <label>Liability Percent</label>
+        <input type="number" name="liab_prct" value=50>
+
+        <label><abbr title="Channel of Claim">Channel</abbr></label>
+        <select type="number select" name="channel" value=2>
+            <option value=1>Broker</option>
+            <option value=2>Online</option>
+            <option value=3>Phone</option>
+        </select>
+
+        <label>Police Report</label>
+        <select type="number select" name="policy_report_filed_ind" value=1>
+            <option value=1>Yes</option>
+            <option value=0>No</option>
+        </select>
+        <br><br>
+
+        <label>Estimated Claim Payout ($)</label>
+        <input type="number" name="claim_est_payout" value=10000>
+
+        <label>Age of Vehicle</label>
+        <input type="number" name="age_of_vehicle" value=5>
+        <br><br>
+
+        <label>Vehicle Category</label>
+        <select type="number select" name="vehicle_category" value=1>
+            <option value=1>Compact</option>
+            <option value=2>Large</option>
+            <option value=3>Medium</option>
+        </select>
+
+        <label>Vehicle Price</label>
+        <input type="number" name="vehicle_price" value=40000>
+
+        <label>Vehicle Color</label>
+        <select type="number select" name="vehicle_color" value=1>
+            <option value=1>White</option>
+            <option value=2>Gray</option>
+            <option value=3>Black</option>
+            <option value=4>Red</option>
+            <option value=5>Blue</option>
+            <option value=6>Silver</option>
+            <option value=7>Other</option>
+        </select>
+        <br><br>
+
+        <label>Vehicle Weight (lbs)</label>
+        <input type="number" name="vehicle_weight" value=5000>
+        <br><br>
+
+        <input type="submit" name = 'submit' value = 'Submit' onclick="collectdata()"> <!-- Button -->
+        <br><br>
+        <input type="reset" name = 'reset' value = 'Reset'> <!-- Button -->
+        <br><br>
+        <h2>Predicted Result: <i>{{ result }}</i></h2>
+    </form>
+    <script>
+        function collectdata()
+        {
+            var res = document.getElementById('form1')
+            for (var i = 0; i < res.length; i++){
+                    var key = res.elements[i].name
+                    var val = res.elements[key].value
+                    sessionStorage.setItem(key, val)
+                }
+        }
+    </script>
+</body>

@@ -124,14 +124,12 @@ def model(X_train, X_test, y_train, y_test):
 
 
 if __name__ == '__main__':
-    url1 = "https://raw.githubusercontent.com/zchenpy/Fraud-detection/main/training%20data.csv"
-    url2 = "https://raw.githubusercontent.com/zchenpy/Fraud-detection/main/test_2021.csv"
+    url1 = "https://raw.githubusercontent.com/zchenpy/Fraud-detection/main/app/training%20data.csv"
+    url2 = "https://raw.githubusercontent.com/zchenpy/Fraud-detection/main/app/test_2021.csv"
     df1 = pd.read_csv(url1)
     df2 = pd.read_csv(url2)
     df1 = df1.dropna()
     df2 = df2.dropna()
-    # print(df1)
-    # print(df2)
 
     df1['gender'] = df1.apply(lambda x: change1(x['gender']), axis=1)
     df1['living_status'] = df1.apply(lambda x: change2(x['living_status']), axis=1)
