@@ -22,7 +22,6 @@ def predict():
     return jsonify({'prediction': str(prediction)})
 
 
-
 if __name__ == '__main__':
 
     # LOADS MODEL AND FEATURE COLUMNS
