@@ -1,0 +1,120 @@
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.182.0.2:5000/ (Press CTRL+C to quit)
+45.20.247.115 - - [29/Jul/2022 18:14:18] "GET / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [29/Jul/2022 18:14:23] "POST / HTTP/1.1" 200 -
+198.235.24.143 - - [29/Jul/2022 19:12:59] "GET / HTTP/1.1" 200 -
+107.123.4.18 - - [29/Jul/2022 19:13:24] "GET / HTTP/1.1" 200 -
+107.123.4.18 - - [29/Jul/2022 19:13:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+205.210.31.35 - - [29/Jul/2022 19:38:10] "GET / HTTP/1.0" 200 -
+45.20.247.115 - - [29/Jul/2022 20:20:03] "GET / HTTP/1.1" 200 -
+45.20.247.115 - - [29/Jul/2022 20:20:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+45.20.247.115 - - [29/Jul/2022 22:24:15] "GET / HTTP/1.1" 200 -
+45.20.247.115 - - [29/Jul/2022 22:24:17] "GET /model HTTP/1.1" 200 -
+45.20.247.115 - - [29/Jul/2022 22:24:17] "GET /static/img/fig1.png HTTP/1.1" 200 -
+45.20.247.115 - - [29/Jul/2022 22:24:17] "GET /static/img/fig2.png HTTP/1.1" 200 -
+45.20.247.115 - - [29/Jul/2022 22:24:23] "GET / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [29/Jul/2022 22:24:35] "POST / HTTP/1.1" 200 -
+45.20.247.115 - - [30/Jul/2022 00:01:26] "GET / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 00:01:47] "POST / HTTP/1.1" 200 -
+45.20.247.115 - - [30/Jul/2022 00:01:47] "POST / HTTP/1.1" 200 -
+45.20.247.115 - - [30/Jul/2022 00:04:47] "GET / HTTP/1.1" 200 -
+92.118.160.1 - - [30/Jul/2022 00:36:53] "GET / HTTP/1.0" 200 -
+45.20.247.115 - - [30/Jul/2022 01:37:57] "GET / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:11] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:21] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:23] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:29] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:30] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:33] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:35] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:40] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:49] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:55] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:38:58] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:39:02] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:39:06] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:39:09] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:39:15] "POST / HTTP/1.1" 200 -
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/qihuawu/Fraud-detection/venv/lib/python3.6/site-packages/sklearn/base.py:315: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 1.1.1 when using version 0.24.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+45.20.247.115 - - [30/Jul/2022 01:39:19] "POST / HTTP/1.1" 200 -
