@@ -27,7 +27,7 @@ def index():
         df = pd.DataFrame([inputs],columns=head)
         loaded_model = pickle.load(open('finalized_model', 'rb'))
         predicted = loaded_model.predict(df)
-        inputs.append(predicted[0])
+        inputs.append(int(predicted[0]))
         result = 'Fraud' if predicted[0] == 1 else 'Not Fraud'
         mysql.insert_query(inputs)
     return render_template('index.html', result=result)
