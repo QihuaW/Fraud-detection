@@ -1,9 +1,13 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import pickle
+import sql_db as sql
 
 # Create Flask App
 app = Flask(__name__)
+
+# Connect to sql database
+mysql = sql.sql_db('35.192.15.39', 'predicted', 'root', '1234abc')
 
 # Create Dataframe
 head = ['age_of_driver', 'gender', 'marital_status', 'safty_rating', 'annual_income',
@@ -19,11 +23,13 @@ def index():
     inputs = []
     if request.method == 'POST':
         for i in range(len(head)):
-            inputs.append(int(request.form[head[i]]))
+            inputs.append(float(request.form[head[i]]))
         df = pd.DataFrame([inputs],columns=head)
         loaded_model = pickle.load(open('finalized_model', 'rb'))
         predicted = loaded_model.predict(df)
+        inputs.append(int(predicted[0]))
         result = 'Fraud' if predicted[0] == 1 else 'Not Fraud'
+        mysql.insert_query(inputs)
     return render_template('index.html', result=result)
 
 @app.route("/model")
